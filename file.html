@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first project</title>
+   <script>
+      
+       function inter() {
+        let user = document.querySelector("#user");
+        let message = document.querySelector("#message");
+        message.innerHTML="Welcome to Umm Al-Qura Universety " + user.value;
+       }
+   </script>
+   <style>
+    
+       body{margin: 0; padding: 0; }
+
+       input
+           {
+           padding: 10PX;
+           font-size: 20px;
+
+
+           }
+       
+    </style>
+</head>
+<body>
+    <h1>This is amr noorwli's website</h1>
+    <h1 style="background-color: #004347; color: #FFFFFF; padding: 20px;">Hello, please inter your name: </h1>
+    <button onclick="inter()" style="color: #008e91; background:#001a1a; padding: 10px; width: 100px; font-size: 20px;"> inter </button>
+    <input id="user">
+    <h1 id="message" style="padding: 20PX; background:#004347; color:#FFFFFF" >  </h1>
+    <img class="img" src="uqu.png  "><img class="img" src="uqu.png  "><img class="img" src="uqu.png  ">
+
+</body>
+</html>
